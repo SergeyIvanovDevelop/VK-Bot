@@ -1,0 +1,51 @@
+{
+   "one_time":false,
+   "buttons":[
+      [
+         {
+            "action":{
+               "type":"text",
+               "payload":"{\"button\": \"1\"}",
+               "label":"Узнать стоимость"
+            },
+            "color":"negative"
+         }],
+      [
+         {
+            "action":{
+               "type":"location",
+               "payload":"{\"button\": \"1\"}"
+            }
+         }
+      ],
+          [
+         {
+            "action":{
+               "type":"text",
+               "payload":"{\"button\": \"2\"}",
+               "label":"Обо мне"
+            },
+            "color":"secondary"
+         }
+      ],
+        [
+         {
+            "action":{
+               "type":"text",
+               "payload":"{\"button\": \"2\"}",
+               "label":"Записаться на фотосессию"
+            },
+            "color":"secondary"
+         }],
+         [
+         {
+            "action":{
+               "type":"text",
+               "payload":"{\"button\": \"2\"}",
+               "label":"Посмотреть примеры работ"
+            },
+            "color":"secondary"
+         }]
+     
+   ]
+}
