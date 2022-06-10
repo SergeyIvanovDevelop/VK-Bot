@@ -1,2 +1,2 @@
-pip3 install vk_api
-pip3 install requests
+vk_api
+requests
